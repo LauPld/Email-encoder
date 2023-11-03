@@ -1,3 +1,3 @@
 # Email-encoder
-Email Encoder 
+Email Encoder :
 Replace the characters of your email addresses with encoded entities
