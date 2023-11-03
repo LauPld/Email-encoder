@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Email Encoder Demo</title>
+  <!-- Include Spectre.css CDN -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/spectre.css/0.4.5/spectre.min.css"
+    integrity="sha512-ixkV1XQlIe5qFmlGKThyYFBm14zZe2j2Rn/Pl+xNKCQxsPviyGFCE6I9LLx8H57quHN5pgGh0jVrlE+sv/satQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body class="container grid-lg">
+<div class=" panel m-2">
+  <h1 class="m-2">Email Encoder Demo</h1>
+  <h2 class="m-2 col-10">Replace the characters of your email addresses with encoded entities</h2>
+  <p class="m-2">Enter your email address and click the button to encode it:</p>
+  <div class="columns m-2">
+  <input type="text" id="emailInput" placeholder="Your email address" class="col-6">
+  <button onclick="encodeEmail()" class="col-mx-auto col-3">Encode Email</button>
+  </div>
+  <p class="m-2">Encoded Email:</p>
+  <input type="text" id="encodedEmail" readonly class="m-2">
+</div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
